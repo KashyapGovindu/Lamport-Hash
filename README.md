@@ -2,15 +2,17 @@
 Implementation of Leslie Lamport One-Time Password scheme using Python, sqlite3 and SHA-256 algorithm for hashing
 
 ## Contents
-> **Basic** Directory  
+**Basic** Directory  
 **server.py** - Lamport implementation on server side(Bob) without salt  
 **client.py** - Lamport implementation on client side(Alice) without salt
-
->**Enhanced** Directory  
+<br>
+<br>
+**Enhanced** Directory  
 **enhancedServer.py** - Lamport implementation on server side(Bob) without salt  
 **enhancedClient.py** - Lamport implementation on client side(Alice) without salt 
-
->**Common files in both implementations**  
+<br>
+<br>
+**Common files in both implementations**  
 **lamport.py** - All functions regarding Lamport scheme implementation for both salt and basic versions  
 **sql_db.py** - All functions regarding SQL implementation for server side database using sqlite3 
 
