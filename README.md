@@ -2,15 +2,17 @@
 Implementation of Leslie Lamport One-Time Password scheme using Python, sqlite3 and SHA-256 algorithm for hashing
 
 ## Contents
->**Basic** Directory  
- **server.py** - Lamport implementation on server side(Bob) without salt  
- **client.py** - Lamport implementation on client side(Alice) without salt
- >**Enhanced** Directory  
- **enhancedServer.py** - Lamport implementation on server side(Bob) without salt  
- **enhancedClient.py** - Lamport implementation on client side(Alice) without salt  
- >**Common files in both implementations**  
- **lamport.py** - All functions regarding Lamport scheme implementation for both salt and basic versions  
- **sql_db.py** - All functions regarding SQL implementation for server side database using sqlite3 
+> **Basic** Directory  
+**server.py** - Lamport implementation on server side(Bob) without salt  
+**client.py** - Lamport implementation on client side(Alice) without salt
+
+>**Enhanced** Directory  
+**enhancedServer.py** - Lamport implementation on server side(Bob) without salt  
+**enhancedClient.py** - Lamport implementation on client side(Alice) without salt 
+
+>**Common files in both implementations**  
+**lamport.py** - All functions regarding Lamport scheme implementation for both salt and basic versions  
+**sql_db.py** - All functions regarding SQL implementation for server side database using sqlite3 
 
 ## Python Libraries/Modules Used
 - socket
@@ -23,7 +25,7 @@ Implementation of Leslie Lamport One-Time Password scheme using Python, sqlite3 
 ## Requirements
 1. **sqlite3** should be installed in the system
 2. **Python3** (>=3.8) should be installed in the system
-3. (Optional) Install DB Browser for sQ Lite to view databases  
+3. (Optional) Install DB Browser for sqLite to view databases  
    
 ## Commands
 1. CLone this repo into your local system/ Download the zip file
